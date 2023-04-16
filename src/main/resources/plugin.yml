@@ -1,0 +1,30 @@
+name: Overwatch
+version: '${project.version}'
+main: me.vlink102.personal.overwatch.Overwatch
+api-version: 1.19
+prefix: Overwatch
+authors: [ V_Link ]
+description: Overwatch (real)
+depend:
+  - Citizens
+  - PlaceholderAPI
+  - TAB
+commands:
+  overwatch:
+    description: "Main overwatch command"
+    usage: /<command>
+    aliases:
+      - ow
+      - ovw
+      - ov
+      - owatch
+      - overwat
+  create-npc:
+    description: "Make citizens npc"
+    usage: /<command>
+  remove-all:
+    description: "Removes all npcs"
+    usage: /<command>
+  switchteams:
+    description: "Switches your team"
+    usage: /<command>
